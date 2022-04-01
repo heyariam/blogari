@@ -1,0 +1,10 @@
+.container {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, auto);
+  column-gap: 3rem;
+  grid-template-areas:
+    "header"
+    "section"
+    "footer";
+}

@@ -1,0 +1,55 @@
+form{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+main form{
+  margin-left: 5rem;
+  margin-right: 5rem;
+  line-height: 2rem;
+}
+
+form{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, auto);
+  column-gap: 3rem;
+}
+
+form{
+  letter-spacing: 0.125em;
+  text-transform: uppercase;
+  margin-top: 0.25rem;
+}
+
+form semititle{
+  text-decoration: none;
+}
+
+.contactContainer{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  }
+
+form input{
+  width: 400px;
+  height: 20px;
+  border-radius: 6px;
+}
+
+.but{
+  align-items: center;
+  width: 640px;
+  height: 46px;
+  border-radius: 8px;
+}
+
+.listItem {
+  display: block;
+  float: left;
+  padding-right: 10px;
+  white-space: nowrap;
+}

@@ -1,0 +1,36 @@
+@import "import.css";
+
+*{
+  margin:0;
+  padding:0;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+.button {
+  padding: 8px 12px;
+  border-radius: 0.5rem;
+}
+
+.bg-pink200 {
+  background-color: var(--pink-200);
+}
+
+.bg-pink300 {
+  background-color: var(--pink-300);
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-salmon {
+  color: var(--salmon-100);
+}
+
+.text-gray900 {
+  color: var(--gray-900);
+}
